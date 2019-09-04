@@ -28,6 +28,25 @@
   max-width: 250px;
 }
 
+.follower-pic {
+  height: auto;
+  max-width: 100px;
+}
+
 .container {
   display: flex;
+}
+
+.followers-container {
+  padding: 5%;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.follower-card,
+.user-card {
+  margin: 2%;
 }

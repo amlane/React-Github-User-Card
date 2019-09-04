@@ -46,11 +46,13 @@ class User extends React.Component {
             My Github Profile
           </a>
         </section>
-        <section className="followers">
+        <section className="followers-container">
           <p>My Followers:</p>
-          {followers.map(follower => {
-            return <Followers follower={follower} />;
-          })}
+          <div className="followers">
+            {followers.map(follower => {
+              return <Followers follower={follower} />;
+            })}
+          </div>
         </section>
       </div>
     );
